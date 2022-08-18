@@ -1,0 +1,30 @@
+{
+  "name": "nextjs_for_tommat",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@uniswap/sdk": "^3.0.3",
+    "@uniswap/sdk-core": "^3.0.1",
+    "@uniswap/smart-order-router": "^2.5.30",
+    "@uniswap/v3-sdk": "^3.9.0",
+    "0xsequence": "^0.40.5",
+    "bootstrap": "^5.2.0",
+    "ethers": "^5.6.9",
+    "next": "12.2.3",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.4.0",
+    "react-bootstrap-icons": "^1.8.4",
+    "react-dom": "18.2.0",
+    "react-spinners": "^0.13.4"
+  },
+  "devDependencies": {
+    "eslint": "8.21.0",
+    "eslint-config-next": "12.2.3"
+  }
+}

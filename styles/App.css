@@ -1,0 +1,356 @@
+.App {
+  text-align: center;
+  background-color: #1F1933;
+  min-height: 100vh;
+  color:white;
+}
+
+body {
+  background-color: #1F1933;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/******************************************************************************/
+/* Navbar */
+.appNav {
+  margin: 0 16px 0 0;
+}
+
+.rightNav {
+  float: right;
+}
+
+.pageButtonBold {
+  font-weight: 800;
+}
+
+.buttonContainer {
+  background-color: #1F1933;
+  border-radius: 16px;
+  display: inline-block;
+}
+
+.buttonContainerTop {
+  margin-left: 175px;
+}
+
+.connectButton {
+  background-color: #7A1C96 !important;
+  border-radius: 16px !important;
+  border: none !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.connectButton2 {
+  background-color: #7A1C96 !important;
+  border-radius: 16px !important;
+  border: none !important;
+  color: rgb(255, 255, 255) !important;
+  padding:10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.connectButtonContainer {
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.connectButton:hover {
+  border-color: #BB6BDA !important;
+}
+
+.hoverBold:hover {
+  font-weight: 800;
+}
+
+/******************************************************************************/
+/* Swap Container */
+.appBody {
+  height: 100%;
+  padding-top: 80px;
+}
+
+.swapContainer {
+  background-color: 1F1933;
+  width: 440px;
+  height: 430px;
+  margin: 0 auto;
+  top: 50%;
+  border-radius: 24px;
+  border: none;
+  padding: 6px;
+  -webkit-box-shadow: 4px 4px 49px 6px #BB6BDA;
+-moz-box-shadow: 4px 4px 49px 6px #BB6BDA;
+box-shadow: 4px 4px 49px 6px rgba(187,107,218,1);
+}
+
+.swapContainer2 {
+  background-color: 1F1933;
+  width: 800px;
+  height: 470px;
+  margin: 0px 400px;
+  top: 20%;
+  border-radius: 24px;
+  border: none;
+  padding: 40px;
+  -webkit-box-shadow: 4px 4px 49px 6px #BB6BDA;
+  -moz-box-shadow: 4px 4px 49px 6px #BB6BDA;
+  box-shadow: 4px 4px 49px 6px rgba(187,107,218,1);
+}
+
+.swapContainer3 {
+  background-color: 1F1933;
+  width: 380px;
+  height: 450px;
+  margin: 0 auto;
+  top: 50%;
+  border-radius: 24px;
+  border: none;
+  padding: 6px;
+  -webkit-box-shadow: 4px 4px 49px 6px #BB6BDA;
+-moz-box-shadow: 4px 4px 49px 6px #BB6BDA;
+box-shadow: 4px 4px 49px 6px rgba(187,107,218,1);
+}
+
+.swapHeader {
+  text-align: left;
+  padding: 4px 20px 0px 20px;
+}
+
+.swapText {
+  color: #ffff;
+  font-size: 20px;
+}
+
+.swapText2 {
+  color: #BB6BDA;
+  font-size: 12px;
+  font-weight: 'bold';
+}
+
+.swapText3 {
+  color: #8B8CA7;
+  font-size: 12px;
+  font-weight: 'bold';
+}
+
+.swapText4 {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 'bold';
+}
+
+.gearContainer {
+  float: right;
+  font-size: 15px
+}
+
+/******************************************************************************/
+/* Currency Input */
+.currencyInput {
+  background-color: #1F1933;
+  margin: 10px !important;
+  padding: 10px;
+  border-radius: 20px;
+  border: #BB6BDA 1px solid;
+}
+.currencyInput:hover {
+  border-color: #7A1C96 !important;
+  border: 1px solid;
+}
+::placeholder {
+  opacity: 0.25;
+}
+.numberContainer {
+  text-align: right;
+  margin: 0px 200px !important;
+}
+.spinnerContainer {
+  height: 55px;
+  line-height: 55px;
+}
+.currencyInputField {
+  font-size: 13px;
+  display: inline-block;
+  width: 100%;
+  border: none;
+  background-color: #1F1933;
+  color: #ffff;
+  text-align: right;
+}
+.tokenContainer {
+  text-align: right;
+}
+.tokenName {
+  font-size: 13px;
+  display: block;
+  color: #ffff;
+  font-weight: 'bold';
+  text-align: left;
+  margin-left: 15px;
+  /*margin: -20px 5px !important;*/
+}
+
+.balanceAmount {
+  width: 100%;
+  font-size: 13px;
+  display: inline;
+  color: #ffff;
+  margin: -20px 0px !important;
+}
+
+.progressBar {
+  padding: 1000px 150px;
+  position: absolute;
+
+}
+
+/******************************************************************************/
+/* Ratio */
+.ratioContainer {
+  text-align: left;
+  margin-left: 10px;
+  height: 28px;
+  color: #ffff;
+}
+.ratioContainer2 {
+  text-align: left;
+  margin-left: 10px;
+  height: 28px;
+  color: #ffff;
+  font-size: 16px;
+}
+
+
+
+/******************************************************************************/
+/* Swap Button */
+.swapButtonContainer {
+  margin: 10px;
+}
+.swapButton {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #BB6BDA;
+  cursor: pointer
+}
+
+.swapButton2 {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #BB6BDA;
+  margin: 300px 0px;
+  cursor: pointer
+}
+
+.swapButton3 {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #BB6BDA;
+  margin: 60px 0px;
+  cursor: pointer
+}
+
+.swapButton4 {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #BB6BDA;
+  margin: 110px 0px;
+  cursor: pointer
+}
+
+/******************************************************************************/
+/* Config Modal */
+
+.modaly {
+  position: fixed;
+  left: 0;
+  top: -130px;
+  right: 0px;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+  font-size: 10px;
+
+}
+
+.modal-content {
+  background-color: #fff;
+  width: 410px !important;
+  padding: 10px 15px;
+  background-color: #1F1933 !important;
+  border: 1px solid #BB6BDA !important;
+  border-radius: 12px !important;
+}
+
+.modal-content2 {
+  background-color: #fff;
+  width: 420px !important;
+  padding: 10px 15px;
+  background-color: #1F1933 !important;
+  border: 1px solid #BB6BDA !important;
+  border-radius: 12px !important;
+}
+
+
+.modalTitle {
+  margin: auto;
+}
+
+.titleHeader {
+  margin-left: -12px;
+  font-size: 10px;
+}
+.labelField {
+  padding-left: 0px !important;
+}
+.fieldContainer {
+  padding-left: 0px !important;
+}
+.inputField {
+  padding-left: 10px;
+  border-radius: 36px;
+  border: 1px solid #BB6BDA;
+  height: 2rem;
+  margin: 10px 0;
+  width: 100%;
+}
+.inputFieldUnitsContainer {
+  padding-left: 0px !important;
+  padding-top: 14px;
+}
