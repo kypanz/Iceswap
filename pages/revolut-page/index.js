@@ -133,12 +133,12 @@ return (
        
        <div className="rightNav">
         <div className="connectButtonContainer">
-          <ConnectButton
+          {/*<ConnectButton
            provider={provider}
            isConnected={isConnected}
            signerAddress={signerAddress}
            getSigner={getSigner}
-           />
+           />*/}
        </div>
     <div>
       </div>
