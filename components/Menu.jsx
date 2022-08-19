@@ -5,6 +5,9 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Link from 'next/link'
 
+// Moralis login button here
+import LoginMoralisButton from './LoginMoralisButton';
+
 export default function Menu() {
   return (
     <Navbar  expand="lg" style={{background:'#1F1933'}}>
@@ -105,8 +108,9 @@ export default function Menu() {
               </Link>
 
             </NavDropdown>
-          
+
           </Nav>
+          <LoginMoralisButton />
         </Navbar.Collapse>
       </Container>
     </Navbar>
