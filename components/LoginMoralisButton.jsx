@@ -31,7 +31,7 @@ export default function LoginMoralisButton() {
       
         <p style={{
           color:'white',
-          background:'purple',
+          background:'#7a1c96',
           padding:'5px',
           borderRadius:'5px'
           }}>Welcome {user.get("username")}</p>
@@ -43,7 +43,8 @@ export default function LoginMoralisButton() {
             marginLeft:'5px',
             height:'35px',
             paddingLeft:'20px',
-            paddingRight:'20px'
+            paddingRight:'20px',
+            color:'white'
           }}> Logout </button>
       
       </div>
