@@ -161,10 +161,47 @@ return (
           <img style={{position: 'absolute', top: 85, left: 40, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/logo_icetoken.png'} alt="logo" />
               <span className="swapText2" style={{color: "#BB6BDA", position: 'absolute', top: 230, left: 10
               , right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}}> Enter an amount to see more trading details &nbsp;</span>
+              <br></br>
+          <br></br>
+          <br></br>
+      
+          &nbsp; 
+          <span className="swapText2" style={{color: "white"}}>
+            <strong>Public Airdrops:</strong>
+          </span>
+          <br></br>
+          <br></br>
+          
+          
+          <a href="https://www.google.com/">
+            <span className="swapText2" style={{color: "white"}}>Purchase</span>
+          </a>
+          
+          &nbsp; &nbsp; &nbsp; &nbsp; 
+          
+          <a href="https://www.google.com/">
+            <span className="swapText2" style={{color: "white"}}>Twitter</span>
+          </a>
+          
+          &nbsp; &nbsp; &nbsp; &nbsp; 
+          
+          <a href="https://www.google.com/">
+            <span className="swapText2" style={{color: "white"}}>Discord</span>
+          </a>
+          
+          &nbsp; &nbsp; &nbsp; &nbsp; 
+          
+          <a href="https://www.google.com/">
+            <span className="swapText2" style={{color: "white"}}>Pinksale</span>
+          </a>
+          
+        
                <span className="swapText2" style={{color: "#BB6BDA", position: 'absolute', top: 47, left: 180
               , right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}}> Period: &nbsp;</span>
               <span className="swapText2" style={{color: "#BB6BDA", position: 'absolute', top: 47, left: 318
               , right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}}> 1 Month &nbsp;</span>
+               <span className="swapText2" style={{color: "white", position: 'absolute', top: 87, left: -250
+              , right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}}>ICE  ▽ &nbsp;</span>
               <span className="swapText2" style={{color: "white", position: 'absolute', top: 47, left: 390
               , right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}}> ► &nbsp;</span>
               <span className="swapText2" style={{color: "white", position: 'absolute', top: 47, left: 250
