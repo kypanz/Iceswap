@@ -144,7 +144,7 @@ return (
     
     
     <div className="appBody">
-        <div className="swapContainer4">
+        <div style={{position: 'absolute', top: 120}}className="swapContainer4">
         <div className="swapHeader">
           <span className="gearContainer" onClick={() => setShowModal(true)}>
           </span>
@@ -209,14 +209,14 @@ return (
               </div>
               </div>              
               <img style={{position: 'absolute', top: 20, left: 50, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/iceSwap.png'} alt="logo" />
-          <img style={{position: 'absolute', top: 110, left: 90, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/icel.png'} alt="backgroundleft" />
-          <img style={{position: 'absolute', top: 245, left: 590, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/logo_icetoken.png'} alt="logo" />
-          <img style={{position: 'absolute', top: 352, left: 590, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/MATIC - Matic Token.png'} alt="logo" />
-          <span class="link" onclick="window.location='https://icons8.com/' " target="_blank" className="swapText2" style={{color: "white",position: 'absolute', top: 300, left: 450}}>←</span>
-              <span className="swapText2" style={{color: "white",position: 'absolute', top: 300, left: 1100}}>→</span>
-              <span className="swapText2" style={{color: "white", position: 'absolute', top: 485, left: 270, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}}>Enter an amount to see more trading details &nbsp;</span>
-              <span className="swapText2" style={{color: "white", position: 'absolute', top: 530, left: -20, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}}>Pool share &nbsp;</span>
-              <img style={{position: 'absolute', top: 525, left: 658, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'https://img.icons8.com/material-outlined/15/FFFFFF/help.png'} alt="logo" />
+          <img style={{position: 'absolute', top: -10, left: -400, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/icel.png'} alt="backgroundleft" />
+          <img style={{position: 'absolute', top: 85, left: 35, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/logo_icetoken.png'} alt="logo" />
+          <img style={{position: 'absolute', top: 193, left: 35, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/MATIC - Matic Token.png'} alt="logo" />
+          <span class="link" onclick="window.location='https://icons8.com/' " target="_blank" className="swapText2" style={{color: "white",position: 'absolute', top: 200, left: -70}}>←</span>
+              <span className="swapText2" style={{color: "white",position: 'absolute', top: 200, left: 495}}>→</span>
+              <span className="swapText2" style={{color: "white", position: 'absolute', top: 340, left: 10, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}}>Enter an amount to see more trading details &nbsp;</span>
+              <span className="swapText2" style={{color: "white", position: 'absolute', top: 370, left: -170, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}}>Pool share &nbsp;</span>
+              <img style={{position: 'absolute', top: 370, left: 165, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'https://img.icons8.com/material-outlined/15/FFFFFF/help.png'} alt="logo" />
    </div>
   </div>
   </div>
