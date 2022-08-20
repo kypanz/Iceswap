@@ -143,7 +143,7 @@ return (
     </div>
     
     
-      <div className="appBody">
+    <div className="appBody">
         <div className="swapContainer4">
         <div className="swapHeader">
           <span className="gearContainer" onClick={() => setShowModal(true)}>
@@ -156,29 +156,67 @@ return (
                 setSlippageAmount={setSlippageAmount}
                 slippageAmount={slippageAmount} />
             )}
-   
+    </div>
+    
+    <div className="swapBody">
+            <CurrencyField
+              field="input"
+              tokenName="Supply liquidity"
+              getSwapPrice={getSwapPrice}
+              signer={signer}
+              balance={wethAmount} />
+              <span className="swapText">
+              </span>
+            <CurrencyField color="#BB6BDA"
+              field="output"
+              tokenName="Receive"
+              value={outputAmount}
+              signer={signer}
+              balance={uniAmount}
+              spinner={BeatLoader}
+              loading={loading } />
+          </div>
 
-         
+
+          <div className="ratioContainer">
+          <div className="ratioContainer">
+            {ratio && (
+              <>
+                {`1 UNI = ${ratio} WETH`}
+              </>
+            )}
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-            <br></br>
-            <span className="swapText2" style={{color: "white"}}><strong>Your saved liquidity pools&nbsp;</strong></span>
-
-
-              <div className="ratioContainer">
+            <span className="swapText2" style={{color: "white"}}>1 MATIC = 0.99 ICE &nbsp;</span>
+          </div>
+          
+          
+          <div className="swapButtonContainer">
+            {isConnected() ? (
+              <div
+                onClick={() => runSwap(transaction, signer)}
+                className="swapButton"
+              >
+                connect
+              </div>
+            ) : (
+              <div
+                onClick={() => getSigner(provider)}
+                className="swapButton"
+              >
+                Add Liquidity
+              </div>
+              )}
               </div>
               </div>              
-          <img style={{position: 'absolute', top: 20, left: 50, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/iceSwap.png'} alt="logo" />
+              <img style={{position: 'absolute', top: 20, left: 50, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/iceSwap.png'} alt="logo" />
           <img style={{position: 'absolute', top: 110, left: 90, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/icel.png'} alt="backgroundleft" />
-          <img style={{position: 'absolute', top: 250, left: 710, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'liquiditypool.png'} alt="logo" />
-          <span className="swapText2" style={{color: "white",position: 'absolute', top: 300, left: 450}}>←</span>
+          <img style={{position: 'absolute', top: 245, left: 590, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/logo_icetoken.png'} alt="logo" />
+          <img style={{position: 'absolute', top: 352, left: 590, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/MATIC - Matic Token.png'} alt="logo" />
+          <span class="link" onclick="window.location='https://icons8.com/' " target="_blank" className="swapText2" style={{color: "white",position: 'absolute', top: 300, left: 450}}>←</span>
               <span className="swapText2" style={{color: "white",position: 'absolute', top: 300, left: 1100}}>→</span>
-              <span className="swapText2" style={{color: "white", position: 'absolute', top: 400, left: 270, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}}>It seems like you do not have any liquidity
-pool yet. &nbsp;</span>
-              <span className="swapText2" style={{color: "white", position: 'absolute', top: 450, left: 270
-              , right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}}> Do you already have one? &nbsp;</span>
-              <span className="swapText2" style={{color: "#BB6BDA", position: 'absolute', top: 500, left: 270
-              , right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}}> Import &nbsp;</span>
-              <img style={{position: 'absolute', top: 500, left: 730, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'https://img.icons8.com/material-outlined/20/bb6bda/upload-to-cloud.png'} alt="logo" />
+              <span className="swapText2" style={{color: "white", position: 'absolute', top: 485, left: 270, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}}>Enter an amount to see more trading details &nbsp;</span>
+              <span className="swapText2" style={{color: "white", position: 'absolute', top: 530, left: -20, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}}>Pool share &nbsp;</span>
+              <img style={{position: 'absolute', top: 525, left: 658, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'https://img.icons8.com/material-outlined/15/FFFFFF/help.png'} alt="logo" />
    </div>
   </div>
   </div>
