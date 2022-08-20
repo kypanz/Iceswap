@@ -245,7 +245,13 @@ box-shadow: 4px 4px 49px 6px rgba(187,107,218,1);
   font-size: 16px;
 }
 
-
+.ratioContainer3 {
+  text-align: right;
+  margin-left: 10px;
+  height: 28px;
+  color: #ffff;
+  font-size: 16px;
+}
 
 /******************************************************************************/
 /* Swap Button */
@@ -317,6 +323,20 @@ swapButton5 {
   text-align: center;
   border-radius: 20px;
   background-color: #BB6BDA;
+  cursor: pointer
+}
+
+.swapButton6 {
+  width: 30%;
+  height: 45px;
+  line-height: 40px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #BB6BDA;
+  margin: -93px 280px;
   cursor: pointer
 }
 /******************************************************************************/

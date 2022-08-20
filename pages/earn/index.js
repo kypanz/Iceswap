@@ -173,25 +173,25 @@ return (
           <br></br>
           
           
-          <a href="https://www.google.com/">
+          <a href="http://localhost:3000/token">
             <span className="swapText2" style={{color: "white"}}>Purchase</span>
           </a>
           
           &nbsp; &nbsp; &nbsp; &nbsp; 
           
-          <a href="https://www.google.com/">
+          <a href="https://twitter.com/">
             <span className="swapText2" style={{color: "white"}}>Twitter</span>
           </a>
           
           &nbsp; &nbsp; &nbsp; &nbsp; 
           
-          <a href="https://www.google.com/">
+          <a href="https://discord.com/">
             <span className="swapText2" style={{color: "white"}}>Discord</span>
           </a>
           
           &nbsp; &nbsp; &nbsp; &nbsp; 
           
-          <a href="https://www.google.com/">
+          <a href="https://www.pinksale.finance/">
             <span className="swapText2" style={{color: "white"}}>Pinksale</span>
           </a>
           
