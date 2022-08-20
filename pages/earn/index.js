@@ -206,6 +206,8 @@ return (
               , right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}}> ► &nbsp;</span>
               <span className="swapText2" style={{color: "white", position: 'absolute', top: 47, left: 250
               , right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}}> ◄ &nbsp;</span>
+              <br></br>
+
 
 
    </div>

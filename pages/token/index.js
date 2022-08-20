@@ -207,6 +207,13 @@ return (
           <img style={{position: 'absolute', top: 110, left: 90, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/icei.png'} alt="backgroundleft" />
           <img style={{position: 'absolute', top: 110, left: 1000, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/icej.png'} alt="backgroundright" />
           <img style={{position: 'absolute', top: 420, left: 450, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/qrcode.png'} alt="backgroundright" />
+          <span className="swapText2" style={{color: "#8B8CA7", position: 'absolute', top: 420, left: 290
+              , right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}}> Receive ICE tokens &nbsp;</span>
+              <br></br>
+              <span className="swapText2" style={{color: "#8B8CA7", position: 'absolute', top: 450, left: 240
+              , right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}}> Adress: 0TXdoejwkesjds986 &nbsp;</span>
+              <img style={{position: 'absolute', top: 500, left: 765, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'https://img.icons8.com/fluency-systems-filled/20/8b8ca7/share-rounded.png'} alt="share" />
+              <img style={{position: 'absolute', top: 500, left: 805, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'https://img.icons8.com/external-becris-lineal-becris/20/8b8ca7/external-copy-mintab-for-ios-becris-lineal-becris.png'} alt="copy" />
    </div>
   </div>
   </div>
