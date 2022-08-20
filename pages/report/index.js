@@ -177,7 +177,8 @@ return (
               <span className="swapText2" style={{color: "white"}}>Upload proof </span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <span className="swapText2" style={{color: "#BB6BDA"}}>Transference.pdf</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <br></br>
-              <progress style={{margin: "10px 130px", color: "#BB6BDA"}} id="file" max="100" value="25"> 99% </progress>
+              <progress style={{margin: "5px 130px", color: "#BB6BDA"}} id="file" max="100" value="25"> 99% </progress>
+              
 
           </div>
 
@@ -211,6 +212,7 @@ return (
          
           </div>
           <img style={{position: 'absolute', top: -10, left: -310, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/iceo.png'} alt="backgroundleft" />
+          <img style={{position: 'absolute', top: 288, left: 290, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'https://img.icons8.com/ios-glyphs/20/bb6bda/cancel.png'} alt="backgroundleft" />
    </div>
   </div>
   </div>
