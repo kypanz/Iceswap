@@ -121,6 +121,20 @@ box-shadow: 4px 4px 49px 6px rgba(187,107,218,1);
 box-shadow: 4px 4px 49px 6px rgba(187,107,218,1);
 }
 
+.swapContainer4 {
+  background-color: 1F1933;
+  width: 440px;
+  height: 430px;
+  margin: 0px 550px 0px;
+  top: 50%;
+  border-radius: 24px;
+  border: none;
+  padding: 6px;
+  -webkit-box-shadow: 4px 4px 49px 6px #BB6BDA;
+-moz-box-shadow: 4px 4px 49px 6px #BB6BDA;
+box-shadow: 4px 4px 49px 6px rgba(187,107,218,1);
+}
+
 .swapHeader {
   text-align: left;
   padding: 4px 20px 0px 20px;
@@ -292,6 +306,18 @@ box-shadow: 4px 4px 49px 6px rgba(187,107,218,1);
   cursor: pointer
 }
 
+swapButton5 {
+  width: 70%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #BB6BDA;
+  cursor: pointer
+}
 /******************************************************************************/
 /* Config Modal */
 
