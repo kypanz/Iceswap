@@ -201,7 +201,7 @@ return (
             )}
           </div>
 
-          <div style={{position: 'absolute', top: 360, left: 300, right: 0, bottom: 0}} className="swapButtonContainer">
+          <div style={{position: 'absolute', top: 400, left: 250, right: 220, bottom: 0}} className="swapButtonContainer">
             {isConnected() ? (
               <div
                 onClick={() => runSwap(transaction, signer)}
@@ -220,8 +220,9 @@ return (
           </div>
           </div>
           <img style={{position: 'absolute', top: 0, left: -250, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/icek.png'} alt="backgroundleft" />
-              <span className="swapText2" style={{color: "white",position: 'absolute', top: 535, left: 1150}}>↓</span>
-              <span className="swapText2" style={{color: "white",position: 'absolute', top: 250, left: 1150}}>↑</span>
+          <span className="swapText2" style={{color: "white",position: 'absolute', top: 370, left: 750}}>↓</span>
+          <span className="swapText2" style={{color: "white",position: 'absolute', top: 125, left: 750}}>↑</span>
+            
    </div>
   </div>
   </div>
