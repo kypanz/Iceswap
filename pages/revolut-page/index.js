@@ -149,7 +149,7 @@ return (
         <div className="swapContainer">
         <div className="swapHeader">
         <span className="swapText"><img class="manImg" src=""></img>
-        <img style={{position: 'absolute', top: 140, left: 600, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/revolut_logo2.png'} alt="revolut" />
+        <img style={{position: 'absolute', top: 200, left: 600, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/revolut_logo2.png'} alt="revolut" />
 </span><br></br><br></br><br></br><br></br><br></br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
           <span className="swapText3">Supported currencies for wire transfer:</span>
           <span className="gearContainer" onClick={() => setShowModal(true)}>
@@ -168,17 +168,17 @@ return (
     <br></br>
               <span className="swapText"><img class="manImg" src=""></img>
 </span>
-<img style={{position: 'absolute', top: 290, left: 550, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/polygon.png'} alt="polygon" />   
-<img style={{position: 'absolute', top: 290, left: 590, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/logo_btc.png'} alt="btc" />
-<img style={{position: 'absolute', top: 290, left: 630, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/logo_aave.png'} alt="aave" />
-<img style={{position: 'absolute', top: 290, left: 670, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/logo_amp.png'} alt="amp" />
-<img style={{position: 'absolute', top: 290, left: 710, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/logo_xlm.png'} alt="xlm" />
+<img style={{position: 'absolute', top: 360, left: 550, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/polygon.png'} alt="polygon" />   
+<img style={{position: 'absolute', top: 360, left: 590, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/logo_btc.png'} alt="btc" />
+<img style={{position: 'absolute', top: 360, left: 630, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/logo_aave.png'} alt="aave" />
+<img style={{position: 'absolute', top: 360, left: 670, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/logo_amp.png'} alt="amp" />
+<img style={{position: 'absolute', top: 360, left: 710, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/logo_xlm.png'} alt="xlm" />
 
-<img style={{position: 'absolute', top: 330, left: 550, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/logo_eth.png'} alt="eth" />
-<img style={{position: 'absolute', top: 330, left: 590, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/logo_1inch.png'} alt="1inch" />
-<img style={{position: 'absolute', top: 330, left: 630, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/logo_amp.png'} alt="amp" />
-<img style={{position: 'absolute', top: 330, left: 670, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/logo_doge.png'} alt="doge" />
-<img style={{position: 'absolute', top: 330, left: 710, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/logo_xpr.png'} alt="xpr" />
+<img style={{position: 'absolute', top: 400, left: 550, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/logo_eth.png'} alt="eth" />
+<img style={{position: 'absolute', top: 400, left: 590, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/logo_1inch.png'} alt="1inch" />
+<img style={{position: 'absolute', top: 400, left: 630, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/logo_amp.png'} alt="amp" />
+<img style={{position: 'absolute', top: 400, left: 670, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/logo_doge.png'} alt="doge" />
+<img style={{position: 'absolute', top: 400, left: 710, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/logo_xpr.png'} alt="xpr" />
 
           </div>
 
