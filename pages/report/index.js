@@ -182,7 +182,7 @@ return (
               <span className="swapText2" style={{color: "white"}}>Upload proof </span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <span className="swapText2" style={{color: "#BB6BDA"}}>Transference.pdf</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <br></br>
-              <progress style={{margin: "5px 130px", color: "#BB6BDA"}} id="file" max="100" value="25"> 99% </progress>
+              <progress className="rcorners2" style={{margin: "5px 130px", color: "#BB6BDA"}} id="file" max="100" value="25"> 99% </progress>
               
 
           </div>
