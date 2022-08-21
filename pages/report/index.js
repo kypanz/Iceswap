@@ -144,19 +144,13 @@ return (
     <div className="appBody">
         <div style={{position: 'absolute', top: 120}} className="swapContainer2">
         <div className="swapHeader">
-          <span className="tokenName"><strong>Report</strong>
-          </span>
+          
           <span className="gearContainer" onClick={() => setShowModal(true)}>
           </span>
-          {showModal && (
-              <ConfigModal
-                onClose={() => setShowModal(false)}
-                setDeadlineMinutes={setDeadlineMinutes}
-                deadlineMinutes={deadlineMinutes}
-                setSlippageAmount={setSlippageAmount}
-                slippageAmount={slippageAmount} />
-            )}
-           
+         
+             <br></br>
+              <span className="swapText2" style={{color: "white"}}><strong>Report</strong></span>
+              <br></br>
            <br></br>
               <span className="swapText2" style={{color: "white"}}>Token: </span>
               <br></br>
@@ -191,20 +185,39 @@ return (
             )}
           </div>
 
-          <div style={{position: 'absolute', top: 560, left: 700, right: 0, bottom: 0}} className="swapButtonContainer">
+          <div style={{position: 'absolute', top: 360, left: 200, right: 480, bottom: 0}} className="swapButtonContainer">
             {isConnected() ? (
               <div
                 onClick={() => runSwap(transaction, signer)}
-                className="swapButton"
+                className="swapButton8"
               >
                 Send
               </div>
             ) : (
               <div
                 onClick={() => getSigner(provider)}
-                className="swapButton"
+                className="swapButton8"
               >
                 Send
+              </div>              
+            )}
+          </div>
+
+
+          <div style={{color: "#FD3F4C", position: 'absolute', top: 360, left: 400, right: 280, bottom: 0}} className="swapButtonContainer">
+            {isConnected() ? (
+              <div
+                onClick={() => runSwap(transaction, signer)}
+                className="swapButton7"
+              >
+                Connect
+              </div>
+            ) : (
+              <div
+                onClick={() => getSigner(provider)}
+                className="swapButton7"
+              >
+                Claim
               </div>              
             )}
           </div>
