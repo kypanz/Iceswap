@@ -132,7 +132,19 @@ return (
 }
 
 </div>
-       
+<div
+        style={{
+          border: '1px #BB6BDA solid',
+          borderBottomLeftRadius: '10px',
+          borderBottomLeftRadius: '10px',
+          borderBottomRightRadius: '10px',
+          borderTopLeftRadius: '10px',
+          borderTopRightRadius: '10px',
+          width:740,
+          height:350,
+          position: 'absolute', top: 150, left: 430, right: 480, bottom: 0
+        }}
+      ></div>
        
        <div className="rightNav">
        
@@ -147,8 +159,7 @@ return (
           
           <span className="gearContainer" onClick={() => setShowModal(true)}>
           </span>
-         
-             <br></br>
+            
               <span className="swapText2" style={{color: "white"}}><strong>Report</strong></span>
               <br></br>
            <br></br>
@@ -225,7 +236,7 @@ return (
          
           </div>
           <img style={{position: 'absolute', top: -10, left: -310, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/iceo.png'} alt="backgroundleft" />
-          <img style={{position: 'absolute', top: 288, left: 290, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'https://img.icons8.com/ios-glyphs/20/bb6bda/cancel.png'} alt="backgroundleft" />
+          <img style={{position: 'absolute', top: 292, left: 288, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'https://img.icons8.com/ios-glyphs/15/bb6bda/cancel.png'} alt="backgroundleft" />
    </div>
   </div>
   </div>
