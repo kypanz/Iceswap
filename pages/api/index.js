@@ -85,6 +85,46 @@ const optionsPromise4 = {
 
 */
 
+const promise1 = new Promise((resolve,reject) => {
+  axios.request(optionsPromise1).then(function (response) {
+      console.log(response.data);
+      resolve(response.data);
+  }).catch(function (error) {
+      console.error(error);
+      reject('error in the request ...');
+  });
+})
+
+const promise2 = new Promise((resolve,reject) => {
+  axios.request(optionsPromise2).then(function (response) {
+      console.log(response.data);
+      resolve(response.data);
+  }).catch(function (error) {
+      console.error(error);
+      reject('error in the request ...');
+  });
+})
+
+const promise3 = new Promise((resolve,reject) => {
+  axios.request(optionsPromise3).then(function (response) {
+      console.log(response.data);
+      resolve(response.data);
+  }).catch(function (error) {
+      console.error(error);
+      reject('error in the request ...');
+  });
+})
+
+const promise4 = new Promise((resolve,reject) => {
+  axios.request(optionsPromise4).then(function (response) {
+      console.log(response.data);
+      resolve(response.data);
+  }).catch(function (error) {
+      console.error(error);
+      reject('error in the request ...');
+  });
+})
+
 
 // This resolve all the promises | you need to change this for the new promises created
 Promise.all([promise1, promise2, promise3, promise4])
