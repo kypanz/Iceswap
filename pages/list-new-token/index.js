@@ -150,28 +150,18 @@ return (
       <div className="appBody">
         <div style={{position: 'absolute', top: 120}} className="swapContainer2">
         <div className="swapHeader">
-          <span className="tokenName"><strong>List new token</strong></span>
-          <span className="gearContainer" onClick={() => setShowModal(true)}>
-          </span>
-          {showModal && (
-              <ConfigModal
-                onClose={() => setShowModal(false)}
-                setDeadlineMinutes={setDeadlineMinutes}
-                deadlineMinutes={deadlineMinutes}
-                setSlippageAmount={setSlippageAmount}
-                slippageAmount={slippageAmount} />
-            )}
-    
+         
     <br></br>
+    <span className="swapText2" style={{color: "white"}}><strong>List new token</strong></span>
+              <br></br>
+              <br></br>
+              <span className="swapText2" style={{color: "white"}}>Project name: </span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
               <span className="swapText2" style={{color: "white"}}>Project name: </span>
               <br></br>
               <br></br>
               <div style={{ borderTop: "1px solid #BB6BDA", marginLeft: 0, marginRight: 20 }}></div>
-              <span className="swapText2" style={{color: "white"}}>Type of listing: </span>
-              <br></br>
-              <br></br>
-              <div style={{ borderTop: "1px solid #BB6BDA", marginLeft: 0, marginRight: 20 }}></div>
-              <span className="swapText2" style={{color: "white"}}>Project Link </span>
+              <span className="swapText2" style={{color: "white"}}>Type of listing: </span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              <span className="swapText2" style={{color: "white"}}>Project Link: </span>
               <br></br>
               <br></br>
               <div style={{ borderTop: "1px solid #BB6BDA", marginLeft: 0, marginRight: 20 }}></div>
@@ -179,15 +169,22 @@ return (
               <br></br>
               <br></br>
               <div style={{ borderTop: "1px solid #BB6BDA", marginLeft: 0, marginRight: 20 }}></div>
-              <span className="swapText2" style={{color: "white"}}>Exchange trading information </span>
+              <span className="swapText2" style={{color: "white"}}>Exchange trading information</span>
               <br></br>
               <br></br>
               <div style={{ borderTop: "1px solid #BB6BDA", marginLeft: 0, marginRight: 20 }}></div>
-              <span className="swapText2" style={{color: "white"}}>Description</span>
+              <span className="swapText2" style={{color: "white"}}>Description </span>
               <br></br>
               <br></br>
               <div style={{ borderTop: "1px solid #BB6BDA", marginLeft: 0, marginRight: 20 }}></div>
-              <span className="swapText2" style={{color: "white"}}>Upload Docs</span>
+              <span className="swapText2" style={{color: "white"}}>Upload Docs</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              <span className="swapText2" style={{color: "#BB6BDA"}}>Whitepaper</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+              <span className="swapText2" style={{color: "#BB6BDA"}}>Contract</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+              <span className="swapText2" style={{color: "#BB6BDA"}}>Audits</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              <span className="swapText2" style={{color: "#BB6BDA"}}>Token Information</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
+              <br></br>
+              <br></br>
+             
     
     </div>
     
@@ -220,6 +217,10 @@ return (
           </div>
           </div>
           <img style={{position: 'absolute', top: 0, left: -250, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'/icek.png'} alt="backgroundleft" />
+          <img style={{position: 'absolute', top: 365, left: 170, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'https://img.icons8.com/material-rounded/20/bb6bda/upload-to-cloud.png'} alt="backgroundleft" />
+          <img style={{position: 'absolute', top: 365, left: 298, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'https://img.icons8.com/material-rounded/20/bb6bda/upload-to-cloud.png'} alt="backgroundleft" />
+          <img style={{position: 'absolute', top: 365, left: 410, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'https://img.icons8.com/material-rounded/20/bb6bda/upload-to-cloud.png'} alt="backgroundleft" />
+          <img style={{position: 'absolute', top: 365, left: 510, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}} src={'https://img.icons8.com/material-rounded/20/bb6bda/upload-to-cloud.png'} alt="backgroundleft" />
           <span className="swapText2" style={{color: "white",position: 'absolute', top: 370, left: 750}}>↓</span>
           <span className="swapText2" style={{color: "white",position: 'absolute', top: 125, left: 750}}>↑</span>
             
