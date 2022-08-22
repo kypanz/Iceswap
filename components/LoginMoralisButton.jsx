@@ -23,8 +23,6 @@ export default function LoginMoralisButton() {
         </div>
       );
     }
-
-    console.log(user);
   
     return (
       <div style={{display:'flex', paddingTop:'5px'}}>

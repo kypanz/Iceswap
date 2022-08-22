@@ -24,3 +24,26 @@ a {
     background: black;
   }
 }
+section#box_swap{
+  margin-top: 35px !important;
+  padding: 35px;
+  width: 35%;
+  margin:auto;
+  background:rgb(31 25 51);
+  box-shadow: 4px 4px 1000px 6px rgb(187 107 218);
+  border-radius: 15px;
+  border-bottom: 35px;
+}
+a.reference-link{
+  float: left;
+  margin-left: 35px;
+  color: white;
+  background: linear-gradient(45deg, #01aef7, #673f80);
+  padding: 5px 20px 5px 20px;
+  border-radius: 35px;
+  transition: 0.5s;
+}
+a.reference-link:hover{
+  color:white;
+  transition: 0.5s;
+}

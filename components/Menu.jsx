@@ -109,6 +109,14 @@ export default function Menu() {
 
             </NavDropdown>
 
+            <NavDropdown title={
+                <span className="text-light">Buy Crypto</span>
+            } id="basic-nav-dropdown">
+              <Link href="buy-crypto">
+              <NavDropdown.Item href="#withdraw"> Easy Buy </NavDropdown.Item>
+              </Link>
+            </NavDropdown>
+
           </Nav>
           <LoginMoralisButton />
         </Navbar.Collapse>
