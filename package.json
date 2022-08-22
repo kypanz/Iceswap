@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@renproject/chains": "^3.4.4",
+    "@renproject/ren": "^3.4.4",
     "@uniswap/sdk": "^3.0.3",
     "@uniswap/sdk-core": "^3.0.1",
     "@uniswap/smart-order-router": "^2.5.30",
