@@ -47,3 +47,21 @@ a.reference-link:hover{
   color:white;
   transition: 0.5s;
 }
+section#box_cross_chain{
+  width: 50%;
+  background-color: #1f1933;
+  margin: 15px auto;
+  box-shadow: 4px 4px 1000px 6px rgb(187 107 218);
+  border-radius: 25px;
+  padding:20px
+}
+#change_cross_chain_button{
+  border: none;
+  background: linear-gradient(45deg, #89378f, transparent);
+  padding: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
+  color: white;
+  margin-top: 35px;
+  border-radius: 15px;
+}
