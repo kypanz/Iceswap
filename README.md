@@ -40,7 +40,7 @@ We use moralis servers with respective plugins to give a final user a more easy 
 
 # .env example ( needed before deploy )
 ```javascript
-REACT_APP_INFURA_URL_TESTNET=your infura api
+NEXT_PUBLIC_INFURA_URL_TESTNET=your infura api
 GENERATE_SOURCEMAP=false
 NEXT_PUBLIC_APP_ID=Your Moralis app id
 NEXT_PUBLIC_SERVER_URL=Your Moralis app url
