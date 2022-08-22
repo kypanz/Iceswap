@@ -21,6 +21,8 @@ This is a dapp that help the users to.
 - coinmarketcap api
 - Web3
 
+Project tasks for IceSwap in github : https://github.com/users/kypanz/projects/5
+
 Images of the project in the end section ( we are working in a paralell repository to do iceswap, so not all can be here )
 
 # Requirements for this app
